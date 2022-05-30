@@ -56,4 +56,9 @@ def api_home(request,*args,**kwargs):
 
 #### To seralize in django :
 is that you have your model instance (model_data) and turn it to Python dict and return it as JSON to client .
+in django it is called forms (to validate and handle stuff before commiting or insert to db) 
+"https://docs.djangoproject.com/en/4.0/ref/forms/fields/"
+and in reset framework it is called serialize :
+"https://www.django-rest-framework.org/tutorial/1-serialization/#using-modelserializers"
+"https://www.geeksforgeeks.org/modelserializer-in-serializers-django-rest-framework/"
 
