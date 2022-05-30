@@ -23,3 +23,13 @@ cd ..
 # To run the django application
 python manage.py runserver 8000 # 8000 is the port number
 ```
+To migrate your models :
+`python manage.py makemigrations` 
+than 
+`python manage.py migrate`
+
+To test the app content and interactive console with it from shell :
+`python manage.py shell`
+like to insert into a model (table):
+`from <app_name>.models import <table_name>`
+`<table_name>.objects.create(field_1="content")`
