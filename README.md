@@ -19,4 +19,7 @@ django-admin startproject tutorial .  # Note the trailing '.' character
 cd tutorial
 django-admin startapp quickstart
 cd ..
+
+# To run the django application
+python manage.py runserver 8000 # 8000 is the port number
 ```
