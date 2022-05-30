@@ -33,3 +33,7 @@ To test the app content and interactive console with it from shell :
 like to insert into a model (table):
 `from <app_name>.models import <table_name>`
 `<table_name>.objects.create(field_1="content")`
+Note : the id field comes by default in the model and it is the primary key you can change it from settings "https://docs.djangoproject.com/en/4.0/topics/db/models/#automatic-primary-key-fields"
+
+#### To seralize in django :
+is that you have your model instance (model_data) and turn it to Python dict and return it as JSON to client .
